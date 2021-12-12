@@ -1,0 +1,82 @@
+[
+{
+  "model": "places.workstation",
+  "pk": 1,
+  "fields": {
+    "is_active": true,
+    "workstation": "UXDesigner"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 2,
+  "fields": {
+    "is_active": true,
+    "workstation": "UIDesigner"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 3,
+  "fields": {
+    "is_active": true,
+    "workstation": "FrontEnd"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 4,
+  "fields": {
+    "is_active": true,
+    "workstation": "BackEnd"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 5,
+  "fields": {
+    "is_active": true,
+    "workstation": "PHP"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 6,
+  "fields": {
+    "is_active": true,
+    "workstation": "Python"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 7,
+  "fields": {
+    "is_active": true,
+    "workstation": "React"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 8,
+  "fields": {
+    "is_active": true,
+    "workstation": "Mobile"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 9,
+  "fields": {
+    "is_active": true,
+    "workstation": "ScrumMaster"
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 10,
+  "fields": {
+    "is_active": true,
+    "workstation": "VUE"
+  }
+}
+]

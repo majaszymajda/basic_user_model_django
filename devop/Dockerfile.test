@@ -1,0 +1,17 @@
+FROM PYTHON_TEST_IMAGE
+
+ENV PYTHONUNBUFFERED 1
+
+RUN apt-get update -y \
+    && apt-get install -y --no-install-recommends python-dev libldap2-dev libsasl2-dev libssl-dev libpq-dev python3-dev gcc git postgresql-client
+
+WORKDIR /app/
+RUN pip install virtualenv flake8 pre-commit coverage
+#pre-commit cache
+RUN git init
+COPY .pre-commit-config.yaml .pre-commit-config.yaml
+RUN pre-commit install-hooks
+RUN rm -rf .git
+#requirements
+COPY ./requirements /requirements
+RUN pip install -r /requirements/local.txt

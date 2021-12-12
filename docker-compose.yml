@@ -1,0 +1,49 @@
+version: '3.6'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./docker/django/Dockerfile
+    hostname: ba-django
+    container_name: ba-django
+    restart: on-failure
+    depends_on:
+      - postgres
+    volumes:
+      - .:/app
+    env_file:
+      - ./.envs/.env
+    ports:
+      - "8000:8000"
+    command: /start
+    networks:
+      - backend
+
+  postgres:
+    image: postgres:13.0
+    hostname: ba-db
+    container_name: ba-db
+    ports:
+      - 54320:5432
+    env_file:
+      - ./.envs/.env
+    networks:
+      - backend
+
+  # kimai:
+  #   image: kimai/kimai2:latest-dev
+  #   hostname: ba-kimai
+  #   container_name: ba-kimai
+  #   ports:
+  #     - 8001:8001
+  #   networks:
+  #     - backend
+
+
+networks:
+  backend:
+    name: ba_network
+
+volumes:
+  local_postgres_data: {}

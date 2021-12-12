@@ -1,0 +1,101 @@
+[
+{
+  "model": "core_users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$JlEH6PncgNH9$DdiSZsTnlwqZmj23HkSgoPWT+spR0t/qhSGAUH9fLKA=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-03-08T10:16:40.187Z",
+    "is_admin": true,
+    "is_leader": true,
+    "work_city": "Wrocław",
+    "modification_time": "2021-03-08T10:16:40.367Z",
+    "email": "root@gmail.com",
+    "groups": [],
+    "user_permissions": [],
+    "workstations": []
+  }
+},
+{
+  "model": "core_users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$NINhmQGdrtOK$uJUlPJGFeG1QYcxcIYKr665/VXhmjSWD5BZlDTFSI0I=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Staszek",
+    "first_name": "Staszek",
+    "last_name": "Tymon",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-03-08T10:20:41.205Z",
+    "is_admin": false,
+    "is_leader": true,
+    "work_city": "Rzeszów",
+    "modification_time": "2021-03-08T10:20:41.206Z",
+    "email": "staszek@gmail.com",
+    "groups": [],
+    "user_permissions": [],
+    "workstations": [
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "core_users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$kZxG7SXcV9gl$HihVebQZEqo5Fwd/OZ7fQ1QnJhCua8DHKi2q8JsR6us=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Tymek",
+    "first_name": "Tymek",
+    "last_name": "Tymek",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-03-08T10:21:15.152Z",
+    "is_admin": false,
+    "is_leader": false,
+    "work_city": "Inne",
+    "modification_time": "2021-03-08T10:21:15.152Z",
+    "email": "tymek@gmail.com",
+    "groups": [],
+    "user_permissions": [],
+    "workstations": [
+      6
+    ]
+  }
+},
+{
+  "model": "core_users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$GhLNghUJhdW8$Av0DFXVKIl5rMkV9YZZFhDG2k8cZOwbRu8JMClGLB3A=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Bernadeta",
+    "first_name": "Bernadeta",
+    "last_name": "Bernadeta",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-03-08T10:22:06.652Z",
+    "is_admin": true,
+    "is_leader": false,
+    "work_city": "Wrocław",
+    "modification_time": "2021-03-08T10:22:06.653Z",
+    "email": "bernadeta@gmail.com",
+    "groups": [],
+    "user_permissions": [],
+    "workstations": [
+      9
+    ]
+  }
+}
+]

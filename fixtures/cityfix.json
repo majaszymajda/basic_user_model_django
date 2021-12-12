@@ -1,0 +1,26 @@
+[
+{
+  "model": "places.city",
+  "pk": 1,
+  "fields": {
+    "is_active": true,
+    "city": "Wrocław"
+  }
+},
+{
+  "model": "places.city",
+  "pk": 2,
+  "fields": {
+    "is_active": true,
+    "city": "Rzeszów"
+  }
+},
+{
+  "model": "places.city",
+  "pk": 3,
+  "fields": {
+    "is_active": true,
+    "city": "Inne"
+  }
+}
+]

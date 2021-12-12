@@ -1,0 +1,119 @@
+[
+{
+  "model": "places.city",
+  "pk": 1,
+  "fields": {
+    "is_removed": false,
+    "city": "Wrocław",
+    "is_active": true
+  }
+},
+{
+  "model": "places.city",
+  "pk": 2,
+  "fields": {
+    "is_removed": false,
+    "city": "Rzeszów",
+    "is_active": true
+  }
+},
+{
+  "model": "places.city",
+  "pk": 3,
+  "fields": {
+    "is_removed": false,
+    "city": "Inne",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 1,
+  "fields": {
+    "is_removed": false,
+    "workstation": "UX Designer",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 2,
+  "fields": {
+    "is_removed": false,
+    "workstation": "UI Designer",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 3,
+  "fields": {
+    "is_removed": false,
+    "workstation": "Frontend",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 4,
+  "fields": {
+    "is_removed": false,
+    "workstation": "Backend",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 5,
+  "fields": {
+    "is_removed": false,
+    "workstation": "PHP",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 6,
+  "fields": {
+    "is_removed": false,
+    "workstation": "Python",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 7,
+  "fields": {
+    "is_removed": false,
+    "workstation": "React",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 8,
+  "fields": {
+    "is_removed": false,
+    "workstation": "Mobile",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 9,
+  "fields": {
+    "is_removed": false,
+    "workstation": "Scrum Master",
+    "is_active": true
+  }
+},
+{
+  "model": "places.workstation",
+  "pk": 10,
+  "fields": {
+    "is_removed": false,
+    "workstation": "Vue",
+    "is_active": true
+  }
+}
+]
