@@ -1,0 +1,1 @@
+# basic_user_model_django
